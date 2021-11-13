@@ -2,3 +2,5 @@ task1-sub14.csv: 0.5921
 task1-sub15.csv: 0.6257
 task1-sub16.csv: 0.6271
 task1-sub17.csv: 0.6304
+task1-sub18.csv: 0.6571
+task1-sub19.csv: ~0.667
