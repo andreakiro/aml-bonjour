@@ -6,5 +6,7 @@
 .ipynb_checkpoints
 
 # Submission files
-submissions/
+submissions/task*-sub.csv
 
+# Data files
+data/
