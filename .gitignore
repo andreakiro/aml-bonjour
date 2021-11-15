@@ -1,3 +1,10 @@
-**/.DS_Store
-**/.ipynb_checkpoints
-**/submissions/**
+# MacOS related files
+.DS_Store
+.icloud
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Submission files
+submissions/
+
