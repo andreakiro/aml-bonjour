@@ -2,8 +2,9 @@
 Main repo for the task projects of the Advanced Machine Learning course at ETHZ.
 
 - `Task 0:` Warm up and set up of tools and repo.
-- `Task 1:` Brain age prediction using [MRI](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging) features.
-- `Task 2:` Heart rhythm classification from raw [ECG](https://en.wikipedia.org/wiki/Electrocardiography) signals.
+- `Task 1:` Brain age prediction using MRI features.
+- `Task 2:` Heart rhythm classification from raw ECG signals.
+- `Task 3:` Mitral valve segmentation.
 
 ## `Task 1:` Brain age prediction using [MRI](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging) features.
 
@@ -28,3 +29,5 @@ The `feature extraction` pipeline takes out a bunch of interesting features incl
 Afterward, we standardized our data to ensure all features have the same importance. We also applied an important feature selection process very similar to the one we used in `task 1` to get rid of features we created that were too correlated and provided little information in order to increase model accuracy and reduce training complexity. We finally detected very few outliers using again the same techniques as in `task 1`.
 
 We then trained almost any sklearn classification model and fine tuned their hyperparamters using a grid search approach. In particular, we explored performance of `Ridge`, `Logistic`, `MLP`, `Support Vector Classification (SVC)`, `Random Forest (RF)`, `Gradient Boosting Classification (GBC)`, `KNeighbors`, `Gaussian Process` and `AdaBoost`. Our final model consist of an ensemble of the best performing classification models. The ensemble giving us the best validation score keeping a low std only contains `RF` and `GBC`.
+
+## `Task 3:` Mitral valve segmentation.
