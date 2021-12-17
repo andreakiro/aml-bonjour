@@ -1,0 +1,25 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+
+# 01 - Raw
+train_raw:
+  type: task_3.extras.dataset.zipped_pickle_dataset.ZippedPickleDataSet
+  filepath: data/01_raw/train.pkl
+  layer: raw
+
+test_raw:
+  type: task_3.extras.dataset.zipped_pickle_dataset.ZippedPickleDataSet
+  filepath: data/01_raw/test.pkl
+  layer: raw
+
+train_amateur_raw:
+  type: task_3.extras.dataset.zipped_pickle_dataset.ZippedPickleDataSet
+  filepath: data/01_raw/train.pkl
+  layer: raw
+
+train_expert_raw:
+  type: task_3.extras.dataset.zipped_pickle_dataset.ZippedPickleDataSet
+  filepath: data/01_raw/train.pkl
+  layer: raw
